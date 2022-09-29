@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <titile>Form page</titile>
+    <style>
+        form{
+            background-color: antiquewhite;
+
+        }
+        h1{
+            background-color: rgb(116, 72, 6);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .button
+        {
+            text-align: center;
+            align-items: center;
+            background-color: brown;
+            border-radius: 10px;
+            margin-left: 500px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        name{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>APLICATION FORM</h1>
+    <form action="/submit.htm">
+    <fieldset>
+        <legend>personal details</legend>
+       <label for="fname">First name:</label>
+       <input type="text" name="others" >
+       <label for="sname">   Last name:</label>
+       <input type="text"  name="others" required><br><br>
+       <label for="email">Enter your mail:</label>
+       <input type="text" name="others" pattern="(?=.*\d)(?=.*[@])"><br><br>
+       <label for="pno">phone number:</label>
+       
+       <input type="number" name="others"><br><br>
+       
+       select your gender:
+       <input type="radio"  name="others">
+       <label for="male">male</legend>
+       <input type="radio"  name="others">
+       <label for="female">female</legend>
+       <input type="radio" name="others">
+       <label for="others">others</legend><br><br>
+       <div>skills:<br>
+        <input type="checkbox" >C<br>
+        <input type="checkbox" >JAVA<br>
+        <input type="checkbox" >PYTHON<br>
+        <input type="checkbox" >.NET<br><br>
+        
+       </div>
+       <div>
+        <label>Enter your college name:</label>
+        <input type="text" style="background-color: antiquewhit;"><br><br>
+       </div>
+       <input class="button"  type="submit" >
+
+    </fieldset>
+
+
+
+
+</body>
+</html>
